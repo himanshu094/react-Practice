@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <script type="module">
+    import {Hello,Product} from "../library/index.js"
+    document.querySelector('p').innerHTML=Hello();
+    let obj=new Product()
+    obj.Print()
+  </script>
+</head>
+<body>
+  <h2>Index Page</h2>
+  <p></p>
+  <a href="home.html">Home</a>
+</body>
+</html>
