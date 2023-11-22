@@ -9,12 +9,15 @@ import NetflixIndexComponent from './component/NetflixIndexComponent';
 import LoginComponent from './component/LoginComponent';
 
 import reportWebVitals from './reportWebVitals';
+import ApiComponent from './component/ApiComponent';
+import ApiComponentCart from './component/ApiComponentCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <NetflixIndexComponent /> */}
-    <LoginComponent/>
+    {/* <LoginComponent/> */}
+    <ApiComponentCart/>
   </React.StrictMode>
 );
 
