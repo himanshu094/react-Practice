@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 import ShoppingComponent from './component/ShoppingComponent';
 import ApiComponentCart from './component/ApiComponentCart';
+import EventBindingComponent from './component/EventBindingComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,7 @@ root.render(
   <React.StrictMode>
     {/* <NetflixIndexComponent /> */}
     {/* <ApiComponentCart/> */}
-    <ShoppingComponent/>
+    <EventBindingComponent/>
   </React.StrictMode>
 );
 
