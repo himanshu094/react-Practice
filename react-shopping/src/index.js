@@ -9,14 +9,13 @@ import reportWebVitals from './reportWebVitals';
 import ShoppingComponent from './component/ShoppingComponent';
 import ApiComponentCart from './component/ApiComponentCart';
 import EventBindingComponent from './component/EventBindingComponent';
+import TwoWayBinding from './component/TwoWayBinding';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <NetflixIndexComponent /> */}
-    {/* <ApiComponentCart/> */}
-    <EventBindingComponent/>
+    <TwoWayBinding/>
   </React.StrictMode>
 );
 
