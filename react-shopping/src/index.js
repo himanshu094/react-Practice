@@ -11,12 +11,14 @@ import ApiComponentCart from './component/ApiComponentCart';
 import EventBindingComponent from './component/EventBindingComponent';
 import TwoWayBinding from './component/TwoWayBinding';
 import TwoWayBindingWithClass from './component/TwoWayBindingWithClass';
+import ShoppingInClassComponent from './component/ShoppingInClassComponent';
+import LoginComponent from './component/LoginComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TwoWayBindingWithClass/>
+    <LoginComponent/>
   </React.StrictMode>
 );
 
