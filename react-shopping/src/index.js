@@ -13,12 +13,13 @@ import TwoWayBinding from './component/TwoWayBinding';
 import TwoWayBindingWithClass from './component/TwoWayBindingWithClass';
 import ShoppingInClassComponent from './component/ShoppingInClassComponent';
 import LoginComponent from './component/LoginComponent';
+import FormComponent from './component/FormComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginComponent/>
+    <FormComponent/>
   </React.StrictMode>
 );
 
