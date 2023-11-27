@@ -14,12 +14,13 @@ import TwoWayBindingWithClass from './component/TwoWayBindingWithClass';
 import ShoppingInClassComponent from './component/ShoppingInClassComponent';
 import LoginComponent from './component/LoginComponent';
 import FormComponent from './component/FormComponent';
+import FormikComponentForm from './component/FormikComponentForm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormComponent/>
+    <FormikComponentForm/>
   </React.StrictMode>
 );
 
