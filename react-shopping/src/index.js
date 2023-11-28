@@ -6,22 +6,14 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ShoppingComponent from './component/ShoppingComponent';
-import ApiComponentCart from './component/ApiComponentCart';
-import EventBindingComponent from './component/EventBindingComponent';
-import TwoWayBinding from './component/TwoWayBinding';
-import TwoWayBindingWithClass from './component/TwoWayBindingWithClass';
-import ShoppingInClassComponent from './component/ShoppingInClassComponent';
-import LoginComponent from './component/LoginComponent';
-import FormComponent from './component/FormComponent';
-import FormikComponentForm from './component/FormikComponentForm';
-import FormikValidation from './component/FormikValidation';
+
+import YupValidation from './component/YupValidation';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormikValidation/>
+    <YupValidation/>
   </React.StrictMode>
 );
 
