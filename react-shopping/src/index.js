@@ -8,12 +8,13 @@ import reportWebVitals from './reportWebVitals';
 
 
 import YupValidation from './component/YupValidation';
+import YupValidationComponent from './component/YupValidationComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <YupValidation/>
+    <YupValidationComponent/>
   </React.StrictMode>
 );
 
