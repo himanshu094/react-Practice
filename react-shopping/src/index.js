@@ -6,15 +6,13 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-import YupValidation from './component/YupValidation';
-import YupValidationComponent from './component/YupValidationComponent';
+import LifeCycleDemo from './component/LifeCycleDemo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <YupValidationComponent/>
+    <LifeCycleDemo/>
   </React.StrictMode>
 );
 
