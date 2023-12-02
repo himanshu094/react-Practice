@@ -7,12 +7,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import LifeCycleDemo from './component/LifeCycleDemo';
+import ReactHookDemo from './component/ReactHookDemo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LifeCycleDemo/>
+    <ReactHookDemo/>
   </React.StrictMode>
 );
 
