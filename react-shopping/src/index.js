@@ -8,12 +8,13 @@ import reportWebVitals from './reportWebVitals';
 
 import LifeCycleDemo from './component/LifeCycleDemo';
 import ReactHookDemo from './component/ReactHookDemo';
+import ContextDemo from './component/ContextDemo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ReactHookDemo/>
+    <ContextDemo/>
   </React.StrictMode>
 );
 
