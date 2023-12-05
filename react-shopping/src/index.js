@@ -6,15 +6,17 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import LifeCycleDemo from './component/LifeCycleDemo';
-import ReactHookDemo from './component/ReactHookDemo';
-import ContextDemo from './component/ContextDemo';
+import Cookie from './component/Cookie';
+
+import { CookiesProvider } from 'react-cookie';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ContextDemo/>
+    <CookiesProvider>
+      <Cookie/>
+    </CookiesProvider>
   </React.StrictMode>
 );
 
