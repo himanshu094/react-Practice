@@ -1,11 +1,14 @@
 import React from 'react'
 import { useEffect,useState } from 'react';
 import { useCookies } from 'react-cookie';
+import { useCaptcha } from '../customHooks/useCaptcha';
 
 export default function Cookie() {
 
   const [cookies,setCookie,removeCookie]=useCookies(['username']);
-  const [userDetails,setUserDetails] = useState({UserName:'',Password:''})
+  const [userDetails,setUserDetails] = useState({UserName:'',Password:''});
+  const {code} = useCaptcha();
+  console.log(code);
 
   useEffect(()=>{
     if(cookies.username==undefined){
@@ -33,6 +36,9 @@ export default function Cookie() {
     removeCookie('username');
     alert('signed out Successfully')
   }
+  function handleNewCode(){
+    
+  }
 
   return (
     <div className='container-fluid'>
@@ -42,6 +48,8 @@ export default function Cookie() {
         <dd><input onChange={handleUserName} type='text'/></dd>
         <dt>Password</dt>
         <dd><input onChange={handlePassword} type='password'/></dd>
+        <dt>Verify Code <button>New Code</button></dt>
+        <dd>{code}</dd>
       </dl>
       <button onClick={handleLogin}>Login</button>
       <hr/>

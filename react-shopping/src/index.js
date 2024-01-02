@@ -5,18 +5,19 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-import Cookie from './component/Cookie';
-
+import ShoppingComponent from './component/ShoppingComponent';
 import { CookiesProvider } from 'react-cookie';
 import ReducerDispatcher from './component/ReducerDispatcher';
+import CustomHookDemo from './component/CustomHookDemo';
+import Cookie from './component/Cookie';
+import NetflixIndexComponent from './component/NetflixIndexComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <CookiesProvider>
-      <ReducerDispatcher/>
+      <Cookie/>
     </CookiesProvider>
   </React.StrictMode>
 );
